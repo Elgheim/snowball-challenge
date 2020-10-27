@@ -1,4 +1,8 @@
 /* Navbar Start*/
+body {
+  margin: 0;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -29,7 +33,7 @@ nav h1 {
 
 /* Valgte pagen - trenger å velge utseende*/
 .active {
-  border-bottom: 5px solid white;
+  border-bottom: 3px solid white;
 }
 /* NavBar slutt */
 
@@ -79,3 +83,23 @@ input {
   height: 30px;
 }
 /* Overordnet boks Slutt*/
+
+.companies-container {
+  width: 80%;
+  margin: auto;
+}
+
+li {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2D6187;
+  border-radius: 15px 15px 15px 15px;
+  color: white;
+}
+
+li:hover {
+  background-color: #ea5455;
+  cursor: pointer;
+}
