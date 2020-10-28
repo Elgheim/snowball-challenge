@@ -45,11 +45,16 @@ nav h1 {
 }
 
 /* Quote boksen */
-.quote{
+.quoteContainer{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10%;
+  max-width: 60%;
+}
+.quoteLook {
+  font-family: sans-serif;
+  font-style: italic;
 }
 
 /* Boks for både input og button -
