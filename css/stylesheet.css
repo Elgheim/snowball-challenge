@@ -1,8 +1,15 @@
-/* Navbar Start*/
-body {
-  margin: 0;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
+body {
+  margin: 0 0 100px;
+  background-color: #FFFEFB;
+  padding: 0 0 100px;
+}
+
+/* Navbar Start*/
 nav {
   display: flex;
   align-items: center;
@@ -89,6 +96,7 @@ input {
 }
 /* Overordnet boks Slutt*/
 
+/* Liste "Companies"*/
 .companies-container {
   width: 80%;
   margin: auto;
@@ -107,4 +115,28 @@ li {
 li:hover {
   background-color: #ea5455;
   cursor: pointer;
+}
+/* Beskrivelse over listen*/
+.list-description {
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  background-color: #2D6187;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
