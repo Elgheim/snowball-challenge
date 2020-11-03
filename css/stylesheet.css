@@ -154,7 +154,7 @@ footer {
 /*  width: 100%; */
   flex-direction: row;
   align-items: flex-start;
-  align-self: center;
+  align-content: center;
   justify-content: center;
   overflow: auto;
   padding: 5%;
@@ -167,7 +167,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 5px 20px lightgrey;
+  box-shadow: 5px 5px 15px lightgrey;
   border-radius: 15px 15px 15px 15px;
   padding: 2%;
   margin: 2%;
@@ -199,7 +199,7 @@ footer {
   height: 100%;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 5px 5px 20px lightgrey;
+  box-shadow: 5px 5px 15px lightgrey;
   padding: 2%;
   margin: 2%;
   flex-wrap: wrap;
@@ -236,9 +236,13 @@ footer {
   align-items: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   /* For mobile phones: */
   [class*="bedrifts-"] {
-    width: 90%;
+    width: 95%;
+    margin: 0%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 1%;
   }
 }
