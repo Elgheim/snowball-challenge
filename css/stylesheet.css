@@ -142,24 +142,26 @@ footer {
 
 .bedrifts-oppsett {
   display: flex;
-  /*width: 80%;*/
+  width: 100%;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   align-self: center;
   justify-content: center;
   overflow: auto;
-  padding-top: 5%;
+  padding: 5%;
   flex-wrap: wrap;
 }
 
-.bedrift {
+.bedrifts-oversikt {
   display: flex;
   width: 40%;
-  height: 100%;
   flex-direction: column;
-  overflow: auto;
   align-items: center;
   justify-content: center;
+  box-shadow: 5px 5px 20px lightgrey;
+  border-radius: 15px 15px 15px 15px;
+  padding: 2%;
+  margin: 2%;
 }
 .bedrifts-tittel {
   width: 100%;
@@ -176,6 +178,9 @@ footer {
   width: 100%;
   align-items: flex-start;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
 }
 
 .bedrifts-stats {
@@ -185,9 +190,11 @@ footer {
   height: 100%;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 2px 2px 5px lightgrey;
-  padding-left: 50px;
+  box-shadow: 5px 5px 20px lightgrey;
+  padding: 2%;
+  margin: 2%;
   flex-wrap: wrap;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .bedrifts-rating {
@@ -196,13 +203,27 @@ footer {
   width: 100%;
 
 }
-.rating-element {
+.bedrifts-ratingElement {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
-.rating-beskrivelse {
+
+.stjerne-vurdering {
+  display: flex;
+  justify-content: flex-start;
+  width: 80px;
+}
+.bedrifts-ratingBeskrivelse {
   display: flex;
   align-items: center;
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="bedrifts-"] {
+    width: 90%;
+  }
 }
