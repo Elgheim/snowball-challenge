@@ -18,7 +18,7 @@ nav {
   height: 70px;
   background-color: #2D6187;
   justify-content: space-around;
-  box-shadow: 10px 10px 30px lightgrey;
+  box-shadow: 8px 8px 15px lightgrey;
 }
 
 nav a {
