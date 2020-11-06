@@ -25,7 +25,7 @@ nav a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: white;
 }
 
@@ -241,6 +241,16 @@ footer {
   /* For mobile phones: */
   [class*="bedrifts-"] {
     width: 95%;
+    margin: 0%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 1%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  [class*="companies-container"] {
+    width: 100%;
     margin: 0%;
     margin-bottom: 2%;
     margin-top: 2%;
