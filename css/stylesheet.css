@@ -125,6 +125,10 @@ a {
   text-decoration: none;
   color: white;
 }
+li a {
+  display: block;
+  padding: 10px;
+}
 /* Beskrivelse over listen*/
 .list-description {
   padding: 3%;
@@ -236,7 +240,19 @@ footer {
   align-items: center;
   flex-direction: column;
 }
-
+.about {
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+}
+.text-blue {
+  color: #2D6187;
+}
+#img-work {
+  width: 700px;
+  display: flex;
+  margin: auto;
+}
 @media only screen and (max-width: 800px) {
   /* For mobile phones: */
   [class*="bedrifts-"] {
